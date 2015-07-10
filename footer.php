@@ -27,7 +27,15 @@
 			</div>
 
 		</section>
-	</footer>
+</footer>
+
+<script src="assets/scripts/vendor/jquery.js" type="text/javascript"></script>
+	
+	<script src="assets/scripts/foundation/foundation.min.js"></script>
+	<script src="assets/owl/owl-carousel/owl.carousel.js"> </script>
+
+<script src="assets/scripts/main.js" type="text/javascript"></script>
+
 <?php wp_footer(); ?>
 
 </body>

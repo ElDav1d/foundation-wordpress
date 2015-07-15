@@ -26,21 +26,21 @@ get_header(); ?>
 			
 			<div class="large-12 columns total-align">
 				<div class="large-4 medium-4 small-12 columns left_column"> 
-					<img class="logo-track" src="assets/images/LogoFrontend.svg" alt="Logos HTML5 CSS3 y JS">
+					<img class="logo-track" src="<?php bloginfo("template_directory") ?>/assets/images/LogoFrontend.svg" alt="Logos HTML5 CSS3 y JS">
 					<h4>Frontend</h4>
 					<p>Partimos de las bases de la creación de páginas web con HTML5 y CSS3 para luego aprender a introducir dinamismo con Javascript. Aprenderemos jQuery y cuando estemos familiarizados con el lenguaje comenzaremos a profundizar en uno de los frameworks más populares: Angular. 
 					</p>
 				</div>
 
 				<div class="large-4 medium-4 small-12 columns center_column"> 
-					<img class="large-12 logo-track" src="assets/images/LogoRuby.svg" alt="Logos Ruby  y Ruby on Rails">
+					<img class="large-12 logo-track" src="<?php bloginfo("template_directory") ?>/assets/images/LogoRuby.svg" alt="Logos Ruby  y Ruby on Rails">
 					<h4>Ruby</h4>
 					<p>Aprenderemos las bases del lenguaje Ruby para luego explorar la creación de aplicaciones web usando sus frameworks más populares: Sinatra para aprender las bases y Ruby on Rails con el que avanzaremos a completas aplicaciones y aprenderemos las últimas arquitecturas de referencia.
 					</p>
 				</div>
 
 				<div class="large-4 medium-4 small-12 columns right_column"> 
-					<img class="logo-track" src="assets/images/LogoJava.svg" alt="Logo Java">
+					<img class="logo-track" src="<?php bloginfo("template_directory") ?>/assets/images/LogoJava.svg" alt="Logo Java">
 					<h4>Java</h4>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa.
 					</p>
@@ -70,7 +70,7 @@ get_header(); ?>
 			<h2>INTEGRANTES</h2>
 			<div class="large-12 medium-12 small-12 columns total-align" >
 				<div class="large-2 medium-2 small-4 columns left_column">
-					<img src="assets/images/Who1.jpg" alt="Who1">
+					<img src="<?php bloginfo("template_directory") ?>/assets/images/Who1.jpg" alt="Who1">
 				</div>
 
 				<div class="large-4 medium-4 small-8 columns center_column">
@@ -80,7 +80,7 @@ get_header(); ?>
 				</div>
 
 				<div class="large-2 medium-2 small-4 columns center_column">
-					<img src="assets/images/Who2.jpg" alt="Who1">
+					<img src="<?php bloginfo("template_directory") ?>/assets/images/Who2.jpg" alt="Who1">
 				</div>
 
 				<div class="large-4 medium-4 small-8 left columns right_column">
@@ -93,7 +93,7 @@ get_header(); ?>
 			<div class="large-12 medium-12 small-12 columns total-align">
 
 				<div class="large-2 medium-2 small-4 columns left_column">
-					<img src="assets/images/Who3.jpg" alt="Who1">
+					<img src="<?php bloginfo("template_directory") ?>/assets/images/Who3.jpg" alt="Who1">
 				</div>
 
 				<div class="large-4 medium-4 small-8 columns center_column">
@@ -103,7 +103,7 @@ get_header(); ?>
 				</div>
 
 				<div class="large-2 medium-2 small-4 columns medium-2 center_column">
-					<img src="assets/images/Who4.jpg" alt="Who1">
+					<img src="<?php bloginfo("template_directory") ?>/assets/images/Who4.jpg" alt="Who1">
 				</div>
 
 				<div class="large-4 medium-4 small-8 left columns right_column">
@@ -115,7 +115,7 @@ get_header(); ?>
 
 			<div class="large-12 medium-12 small-12 columns total-align">
 				<div class="large-2 medium-2 small-4 columns left_column">
-					<img src="assets/images/Who5.jpg" alt="Who1">
+					<img src="<?php bloginfo("template_directory") ?>/assets/images/Who5.jpg" alt="Who1">
 				</div>
 
 				<div class="large-4 medium-4 small-8 columns center_column">
@@ -125,7 +125,7 @@ get_header(); ?>
 				</div>
 
 				<div class="large-2 medium-2 small-4 columns center_column">
-					<img src="assets/images/Who6.jpg" alt="Who1">
+					<img src="<?php bloginfo("template_directory") ?>/assets/images/Who6.jpg" alt="Who1">
 				</div>
 
 				<div class="large-4 medium-4 small-8 left columns right_column">
@@ -138,7 +138,7 @@ get_header(); ?>
 			<div class="large-12 medium-12 small-12 columns total-align">
 
 				<div class="large-2 medium-2 small-4 columns left_column">
-					<img src="assets/images/Who7.jpg" alt="Who1">
+					<img src="<?php bloginfo("template_directory") ?>/assets/images/Who7.jpg" alt="Who1">
 				</div>
 
 				<div class="large-4 medium-4 small-8 columns center_column">
@@ -148,7 +148,7 @@ get_header(); ?>
 				</div>
 
 				<div class="large-2 medium-2 small-4 columns center_column">
-					<img src="assets/images/Who8.jpg" alt="Who1">
+					<img src="<?php bloginfo("template_directory") ?>/assets/images/Who8.jpg" alt="Who1">
 				</div>
 
 				<div class="large-4 medium-4 small-8 left columns right_column">
@@ -161,8 +161,6 @@ get_header(); ?>
 
 		</section>
 				
-			
-		
 		<section id="MENTORING" class="row">
 			<div class="large-12 medium-12 small-12 columns total-align">
 				<h2>MENTORING</h2>
@@ -175,17 +173,15 @@ get_header(); ?>
 			<div class="large-12 medium-12 small-12 columns total-align">
 				<div id="owl-demo" class="owl-carousel">
 
-				  <div><img src="assets/images/B8_93neIMAA779n.jpg" alt="Devscola en Geekshubs"></div>
-				  <div><img src="assets/images/B9lKLjjIYAAm67Q.jpg" alt="Devscola en Geekshubs"></div>
-				  <div><img src="assets/images/B9lNVh8IAAAWCOt.jpg" alt="Devscola en Geekshubs"></div>
-				  <div><img src="assets/images/B9lNx1CIAAE18Qp.jpg" alt="Devscola en Geekshubs"></div>
-				  <div><img src="assets/images/B-SJ5AUIIAAKMZ3.jpg" alt="Devscola en Geekshubs"></div>
+				  <div><img src="<?php bloginfo("template_directory") ?>/assets/images/B8_93neIMAA779n.jpg" alt="Devscola en Geekshubs"></div>
+				  <div><img src="<?php bloginfo("template_directory") ?>/assets/images/B9lKLjjIYAAm67Q.jpg" alt="Devscola en Geekshubs"></div>
+				  <div><img src="<?php bloginfo("template_directory") ?>/assets/images/B9lNVh8IAAAWCOt.jpg" alt="Devscola en Geekshubs"></div>
+				  <div><img src="<?php bloginfo("template_directory") ?>/assets/images/B9lNx1CIAAE18Qp.jpg" alt="Devscola en Geekshubs"></div>
+				  <div><img src="<?php bloginfo("template_directory") ?>/assets/images/B-SJ5AUIIAAKMZ3.jpg" alt="Devscola en Geekshubs"></div>
 
 				</div>
 			</div>
 		</section>
-
-
 
 		<section id="JOIN" class="row">
 
@@ -229,21 +225,21 @@ get_header(); ?>
 				<div class="large-4 medium-4 small-4 columns left_column">
 					<a class="large button social_button" href="https://www.youtube.com/channel/UCfFeLBv3iYU8ZnVswlO022A">
 					<div class="large-3 medium-3 columns left_column">
-					<img class="in_button" src="assets/images/Logotipo-06.png" alt="Logo Devscola">
+					<img class="in_button" src="<?php bloginfo("template_directory") ?>/assets/images/Logotipo-06.png" alt="Logo Devscola">
 					</div>Visítanos en Youtube</a>
 				</div>
 
 				<div class="large-4 medium-4 small-4 columns center_column">
 					<a class="large button social_button" href="https://twitter.com/devscola">
 					<div class="large-3 medium-3 columns left_column">
-					<img class="in_button" src="assets/images/Logotipo-06.png" alt="Logo Devscola">
+					<img class="in_button" src="<?php bloginfo("template_directory") ?>/assets/images/Logotipo-06.png" alt="Logo Devscola">
 					</div>Síguenos en Twitter</a>
 				</div>
 				
 				<div class="large-4 medium-4 small-4 columns right_column">
 					<a class="large button social_button" href="http://devscola.org/blog">
 					<div class="large-3 medium-3 columns left_column">
-					<img class="in_button" src="assets/images/Logotipo-06.png" alt="Logo Devscola">
+					<img class="in_button" src="<?php bloginfo("template_directory") ?>/assets/images/Logotipo-06.png" alt="Logo Devscola">
 					</div>Sigue nuestro blog</a>
 				</div>
 				
@@ -323,11 +319,6 @@ get_header(); ?>
 
 			</div>
 
-				
-
-			
-
-			
 		</section>
 
 	
